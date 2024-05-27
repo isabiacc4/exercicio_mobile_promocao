@@ -6,11 +6,7 @@ export const Mensagempromo = () => {
       <Text style={styles.titulo}>PROMOÇÃO</Text>
       <Text style={styles.produto}>Veja Multiuso 500ml Original</Text>
       <Text style={styles.promo}>Compre 2 e pague 1!</Text>
-      <Image
-        source={{
-          uri: "https://cdn.awsli.com.br/800x800/1922/1922270/produto/221790843/9f426b48-87b6-454c-8e13-87245e937de4-removebg-preview-u49fl6lruw.png"
-        }}
-      />
+      <Image style={styles.img} source={{ uri: 'https://m.media-amazon.com/images/I/61XjP6BZeLL._AC_UF1000,1000_QL80_.jpg' }}/>
     </View>
   );
 };
@@ -35,4 +31,10 @@ const styles = StyleSheet.create({
   promo: {
     color: "blue",
   },
+  img:{
+    width: 100,
+    height: 310,
+    marginBottom: 10,
+    marginTop: 10
+  }
 });

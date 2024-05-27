@@ -15,7 +15,8 @@ const styles = StyleSheet.create({
     alignContent: "center",
     alignItems: "center",
     padding: 20,
-    borderRadius: 50
+    borderRadius: 50,
+    marginBottom: 10
   },
   oferta: {
     color: "red",
