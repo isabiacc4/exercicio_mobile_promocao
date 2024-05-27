@@ -1,4 +1,4 @@
-import { View, Button, StyleSheet, Alert } from "react-native";
+import { View, Button, Alert } from "react-native";
 import { Mensagempromo } from "./components/Mensagempromo";
 import { Quantidadepreco } from "./components/Quantidadepreco";
 
