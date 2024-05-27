@@ -4,7 +4,7 @@ import { Quantidadepreco } from "./components/Quantidadepreco";
 
 export const pagpromocao = () => {
   return (
-    <View>
+    <View class={styles.container}>
       <Mensagempromo />
       <Quantidadepreco />
       <Button
