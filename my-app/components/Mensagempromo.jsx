@@ -10,7 +10,7 @@ export const Mensagempromo = () => {
         source={{
           uri: "https://cdn.awsli.com.br/2500x2500/63/63356/produto/75587621acd8398f0a.jpg",
         }}
-        style={styles.image}
+    
       />
     </View>
   );
