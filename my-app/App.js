@@ -1,12 +1,12 @@
-import { View, Button } from "react-native";
+import { View, Button, StyleSheet } from "react-native";
 import { Mensagempromo } from "./components/Mensagempromo";
-import { Quantidadepreco  } from "./components/Quantidadepreco";
+import { Quantidadepreco } from "./components/Quantidadepreco";
 
 export const pagpromocao = () => {
   return (
     <View>
-      <Mensagempromo/>
-      <Quantidadepreco/>
+      <Mensagempromo />
+      <Quantidadepreco />
       <Button
         title="Adicionar ao carrinho"
         onPress={() => Alert.alert("Coxinha adicionada ao carrinho! 🥟")}
@@ -14,3 +14,15 @@ export const pagpromocao = () => {
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 60,
+
+  },
+
+})
