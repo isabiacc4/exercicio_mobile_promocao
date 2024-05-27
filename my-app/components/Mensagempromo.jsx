@@ -1,9 +1,9 @@
-import { Image, View, Text } from "react-native";
+import { Image, View, Text, StyleSheet } from "react-native";
 
 export const Mensagempromo = () => {
   return (
-    <View>
-      <Text>PROMOÇÃO</Text>
+    <View class={styles.container}>
+      <Text class={styles.titulo}>PROMOÇÃO</Text>
       <Text>Veja Multiuso 500ml Original</Text>
       <Text>Compre 2 e pague 1!</Text>
       <Image
@@ -14,3 +14,18 @@ export const Mensagempromo = () => {
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      margin: 10,
+      padding: 10,
+      fontSize: 50,
+    },
+
+    titulo: {
+        fontWeight: "bold",
+        fontSize: 60
+    }
+  })
+  
