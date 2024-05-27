@@ -1,13 +1,14 @@
-import { Image } from "react-native";
+import { Image, View, Text } from "react-native";
 
 export const Mensagempromo = () => {
   return (
     <View>
       <Text>PROMOÇÃO</Text>
+      <Text>Veja Multiuso 500ml Original</Text>
       <Text>Compre 2 e pague 1!</Text>
       <Image
         source={{
-          uri: "https://vitalnutra.com.br/imagensProdutos/WhatsAppImage2022-09-12at09.31.35.jpeg",
+          uri: "https://cdn.awsli.com.br/2500x2500/63/63356/produto/75587621acd8398f0a.jpg",
         }}
         style={styles.image}
       />
