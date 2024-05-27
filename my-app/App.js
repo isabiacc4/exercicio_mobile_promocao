@@ -1,17 +1,31 @@
-import { View, Button, Alert, StyleSheet, StatusBar } from "react-native";
+import { View, Button, Alert, StyleSheet, StatusBar, ScrollView, SafeAreaView } from "react-native";
 import { Mensagempromo } from "./components/Mensagempromo";
 import { Quantidadepreco } from "./components/Quantidadepreco";
+import { Componente3 } from "./components/componente3";
+import { Componente4 } from "./components/componente4";
 
 const pagpromocao = () => {
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor='blue'/>
-      <Mensagempromo />
-      <Quantidadepreco />
-      <Button
-        title="Adicionar no carrinho"
-        onPress={() => Alert.alert("Limpador adicionado no carrinho 🧼")}
-      />
+      <StatusBar backgroundColor="blue" />
+      <SafeAreaView>
+        <ScrollView>
+          <Mensagempromo />
+          <Quantidadepreco />
+          <Button
+            title="Adicionar no carrinho"
+            onPress={() => Alert.alert("Limpador adicionado no carrinho 🧼")}
+          />
+          <Componente3 />
+          <Componente4 />
+          <Button
+            title="Adicionar no carrinho"
+            onPress={() =>
+              Alert.alert("Desinfetante adicionado no carrinho 🧼")
+            }
+          />
+        </ScrollView>
+      </SafeAreaView>
     </View>
   );
 };
