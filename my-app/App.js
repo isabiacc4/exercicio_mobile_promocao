@@ -7,7 +7,7 @@ import { Componente4 } from "./components/componente4";
 const pagpromocao = () => {
   return (
     <View style={styles.container}>
-      <StatusBar backgroundColor="blue" />
+      <StatusBar backgroundColor="blue"/>
       <SafeAreaView backgroundColor="blue" >
         <ScrollView>
           <Mensagempromo />
