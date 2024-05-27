@@ -1,10 +1,11 @@
-import { View, Button, Alert, StyleSheet } from "react-native";
+import { View, Button, Alert, StyleSheet, StatusBar } from "react-native";
 import { Mensagempromo } from "./components/Mensagempromo";
 import { Quantidadepreco } from "./components/Quantidadepreco";
 
 const pagpromocao = () => {
   return (
     <View style={styles.container}>
+      <StatusBar backgroundColor='blue'/>
       <Mensagempromo />
       <Quantidadepreco />
       <Button
