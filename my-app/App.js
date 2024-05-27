@@ -8,7 +8,7 @@ const pagpromocao = () => {
   return (
     <View style={styles.container}>
       <StatusBar backgroundColor="blue" />
-      <SafeAreaView>
+      <SafeAreaView backgroundColor="blue" >
         <ScrollView>
           <Mensagempromo />
           <Quantidadepreco />
