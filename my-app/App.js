@@ -8,7 +8,7 @@ const pagpromocao = () => {
   return (
     <View style={styles.container}>
       <StatusBar backgroundColor="green"/>
-      <SafeAreaView backgroundColor="blue" >
+      {/* <SafeAreaView backgroundColor="blue" > */}
         <ScrollView>
           <Mensagempromo />
           <Quantidadepreco />
@@ -25,7 +25,7 @@ const pagpromocao = () => {
             }
           />
         </ScrollView>
-      </SafeAreaView>
+      {/* </SafeAreaView> */}
     </View>
   );
 };
